@@ -1,0 +1,42 @@
+{
+  "name": "Python Cheatsheet Repository Ruleset",
+  "purpose": "Collect concise Python snippets and examples; encourage clear, small contributions.",
+  "contribution": {
+    "open_issue": "Open an issue to propose new content or improvements.",
+    "fork_and_pr": "Fork the repo, create a branch (see branchNaming), and open a pull request.",
+    "small_prs": "Keep PRs small and focused (one topic/feature per PR).",
+    "tests": "Include tests or runnable examples when applicable.",
+    "review": "All PRs are reviewed and approved by maintainers before merge."
+  },
+  "commitMessageConvention": {
+    "format": "<type>(scope): short summary",
+    "types": ["feat", "fix", "docs", "style", "refactor", "test", "chore"],
+    "example": "feat(cheatsheet): add itertools examples"
+  },
+  "branchNaming": {
+    "pattern": "^(main|dev|feature|fix|chore)\\/[a-z0-9-]+$",
+    "examples": ["feature/add-search", "fix/typo-readme"]
+  },
+  "pullRequestChecklist": [
+    "Descriptive title and summary",
+    "Linked issue (if applicable)",
+    "Small, focused changes",
+    "Added/updated tests or examples",
+    "Updated README or docs if needed",
+    "Passing CI (if available)"
+  ],
+  "codeStyle": {
+    "python": "Follow PEP 8; use black for formatting when possible.",
+    "javascript": "Follow existing ESLint/Prettier config in the repo.",
+    "examples": "Keep examples short (<= 10 lines when practical) and runnable."
+  },
+  "license": "Add a LICENSE file (recommended: MIT).",
+  "codeOfConduct": "Add CODE_OF_CONDUCT.md to set community expectations.",
+  "testing": "Add unit or integration tests for core components; prefer small, fast tests.",
+  "issues": {
+    "labels": ["enhancement", "bug", "documentation", "help wanted"],
+    "template": "Provide a clear description, steps to reproduce (if bug), or suggested snippet/content."
+  },
+  "visibility": "Use issues and PRs for discussion; keep commit history tidy and descriptive.",
+  "contact": "Open an issue or comment on a PR for questions or requests."
+}
