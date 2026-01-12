@@ -45,14 +45,6 @@ Contribution ideas / areas for improvement
 - Use clear, idiomatic Python and prefer readability.
 - Keep code examples runnable and add comments for clarity.
 
-**License & Code of Conduct**
-If you'd like, I can add a license (MIT/Apache) and a Code of Conduct — tell me which license you prefer.
-
 ---
 
 Thanks for checking out this cheatsheet — contributions and suggestions are welcome! If you want, I can also:
-- add a `CONTRIBUTING.md` with a PR template
-- add a `CODE_OF_CONDUCT.md` and a license file
-- create examples/tests and demo screenshots
-
-Contact / Questions: open an issue or comment on a PR.
